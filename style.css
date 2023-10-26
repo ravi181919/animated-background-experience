@@ -1,0 +1,174 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+html, body 
+{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    height: 100vh;
+    width: 100%;
+   
+}
+#backPosition
+{
+    height: 100vh;
+    width: 100%;
+   
+}
+#backPosition img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+#frontPosition
+{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+  
+}
+#workingArea
+{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+}
+#nav
+{
+    pointer-events: all;
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navleft
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+#navleft img
+{
+    height: 50px;
+}
+#navleft a
+{
+    text-decoration: none;
+    text-transform:  uppercase ;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+}
+#navRight
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+#navRight a
+{
+    text-decoration: none;
+    text-transform:  uppercase ;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+}
+/*  */
+#hero
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#heroLeft
+{
+    min-width: 50%;
+    position: relative;
+}
+#heroLeft #elem
+{
+    height: 9vw;
+    overflow: hidden;
+    position: relative;
+}
+#heroLeft #elem h1:nth-child(1)
+{
+    top: 0;
+}
+#heroLeft #elem h1
+{
+position: absolute;
+top: 100%;
+left: 0;
+font-family: "kajiro";
+font-weight: 100;
+font-size: 11vw;
+line-height: .9;
+color: #fff;
+}
+#heroLeft button
+{
+    pointer-events: all;
+    cursor: pointer;
+    margin-top:2vw ;
+    padding: .8vw 2.5vw;
+    border: none;
+    border-radius: 10px;
+    background-color:#fff;
+    color: #000;
+    font-size: 3vw;
+    font-family: 'kajiro';
+}
+#heroRight
+{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 18%;
+    color: #fff;
+}
+#heroRight #image
+{
+    background-color: #fff;
+    height: 130px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: url(./imageSource/IMG_7565.JPG);
+    background-size: cover;
+    background-position: center;
+}
+#heroRight p
+{
+    font-size: 11px;
+    text-align: right;
+}
+#heroRight p:nth-child(3)
+{
+    margin-bottom: 100px;
+}
