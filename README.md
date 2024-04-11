@@ -22,8 +22,7 @@ The webpage is designed to provide a visually engaging experience for users, fea
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/your-username/animated-page.git`
-2. Open the `index.html` file in your web browser to view the webpage.
+1. Clone the repository: `git clone https://github.com/ravi181919/animated-background-experience.git`
 
 ## Additional Notes
 
